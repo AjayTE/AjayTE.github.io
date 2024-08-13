@@ -1,0 +1,41 @@
+
+/* Styling for the dropdown menu */
+.dropdown-menu {
+    list-style-type: none;  /*No bullet points*/
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.5); /* Transparent background color */
+
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+}
+
+/* Link reeks geheel display */
+.dropdown-menu li {
+    display: inline;
+}
+
+/*Individual blocks with content links*/
+.dropdown-menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    background-color: black;
+}
+
+/* Kleur wanneer je over topic navigatiebalk scrollt */
+.dropdown-menu li a:hover:not(.active) {
+    background-color: cadetblue;
+}
+
+/* Kleur welke pagina huidig zittend */
+.dropdown-menu li a.active {
+    background-color: cadetblue;
+}
+
+
