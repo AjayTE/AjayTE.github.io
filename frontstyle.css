@@ -30,7 +30,7 @@
 
 /* Kleur wanneer je over topic navigatiebalk scrollt */
 .dropdown-menu li a:hover:not(.active) {
-    background-color: cadetblue;
+    background-color: cadetblue;    /* moet niet color ipv background color?*/
 }
 
 /* Kleur welke pagina huidig zittend */
@@ -38,4 +38,8 @@
     background-color: cadetblue;
 }
 
+
+.myself {
+    text-align: center;
+}
 
