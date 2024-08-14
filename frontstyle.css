@@ -38,6 +38,10 @@
     background-color: cadetblue;
 }
 
+body {
+    background-image: url('guatemala.jpg');
+    background-repeat: no-repeat;
+}
 
 .myself {
     text-align: center;
