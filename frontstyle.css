@@ -15,7 +15,9 @@
 
 /* Link reeks geheel display */
 .dropdown-menu li {
-    display: inline;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
 }
 
 /*Individual blocks with content links*/
@@ -26,6 +28,8 @@
     text-decoration: none;
     border-radius: 50%;
     background-color: black;
+
+    padding: 10px 15px;
 }
 
 /* Kleur wanneer je over topic navigatiebalk scrollt */
@@ -44,7 +48,7 @@ body {
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
-    
+
 }
 
 .myself {
