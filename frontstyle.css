@@ -1,3 +1,33 @@
+/* Grid for layout body*/
+
+body {
+    background-image: url('guatemala.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+
+    min-height: 100vh;
+    margin: 0;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+header {
+    min-height: 50px;
+    background: lightcyan;
+}
+
+footer {
+    min-height: 50px;
+    background: papayawhip;
+}
+
+
+
+
+
+
 
 /* Styling for the dropdown menu */
 .dropdown-menu {
@@ -42,14 +72,6 @@
     background-color: cadetblue;
 }
 
-body {
-    background-image: url('guatemala.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-
-}
 
 .myself {
     text-align: center;
