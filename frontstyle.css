@@ -24,6 +24,9 @@ footer {
 }
 
 
+.myself {
+    text-align: center;
+}
 
 
 
@@ -70,11 +73,6 @@ footer {
 /* Kleur welke pagina huidig zittend */
 .dropdown-menu li a.active {
     background-color: cadetblue;
-}
-
-
-.myself {
-    text-align: center;
 }
 
 
