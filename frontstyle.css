@@ -20,11 +20,32 @@ header {
 
 footer {
     min-height: 50px;
-    /* background: papayawhip; */
+    background: papayawhip;
 
     text-align: center;
+    z-index: 1;
 
 }
+
+
+.bottom {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    /* background-color: black; */
+    background-color: papayawhip;
+    color: white;
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 50px;
+    z-index: 1;
+}
+
 
 
 .myself {
@@ -109,21 +130,5 @@ footer {
 }
 
 
-.bottom {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    /* background-color: black; */
-    background-color: papayawhip;
-    color: white;
-    /* text-align: center; */
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    height: 50px;
-    z-index: 1;
-}
 
