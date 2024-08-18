@@ -14,7 +14,7 @@ body {
 }
 
 header {
-    min-height: 50px;
+    min-height: 125px;
     background: lightcyan;
 }
 
@@ -72,7 +72,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 50px;
+    height: 125px;
 
 
     list-style-type: none;  /*No bullet points*/
