@@ -105,7 +105,6 @@ footer {
     margin: 0;
     padding: 0;
 
-    color: white;
     
 }
 
@@ -116,7 +115,7 @@ footer {
     text-align: center;
     text-decoration: none;
     border-radius: 50%;
-    /* background-color: black; */
+    background-color: black;
 
     padding: 10px 15px;
 
