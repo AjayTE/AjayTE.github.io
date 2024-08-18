@@ -19,7 +19,7 @@ header {
 }
 
 footer {
-    min-height: 50px;
+    min-height: 75px;
     background: papayawhip;
 
     text-align: center;
@@ -39,14 +39,14 @@ footer {
     width: 100%;
     /* background-color: black; */
     background-color: papayawhip;
-    color: white;
+    color: black;
     text-align: center;
 
     display: flex;
     justify-content: center;
     align-items: center;
 
-    height: 50px;
+    height: 75px;
     z-index: 1;
 }
 
