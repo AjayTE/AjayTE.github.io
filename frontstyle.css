@@ -21,6 +21,9 @@ header {
 footer {
     min-height: 50px;
     background: papayawhip;
+
+    text-align: center;
+    
 }
 
 
@@ -105,8 +108,8 @@ footer {
 
 
 .bottom {
-    /* position: fixed; */
-    /* left: 0; */
+    position: fixed;
+    left: 0;
     bottom: 0;
     width: 100%;
     background-color: black;
@@ -116,6 +119,8 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
+    height: 50px;
+
 }
 
