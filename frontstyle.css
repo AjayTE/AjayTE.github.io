@@ -20,7 +20,7 @@ header {
 
 footer {
     min-height: 50px;
-    background: papayawhip;
+    /* background: papayawhip; */
 
     text-align: center;
 
@@ -115,6 +115,7 @@ footer {
     bottom: 0;
     width: 100%;
     /* background-color: black; */
+    background-color: papayawhip;
     color: white;
     /* text-align: center; */
 
