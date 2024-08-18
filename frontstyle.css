@@ -15,12 +15,12 @@ body {
 
 header {
     min-height: 50px;
-    background: lightcyan;
+    /* background: lightcyan; */
 }
 
 footer {
-    min-height: 75px;
-    background: papayawhip;
+    min-height: 50px;
+    /* background: papayawhip; */
 
     text-align: center;
     z-index: 1;
