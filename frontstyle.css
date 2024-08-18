@@ -60,6 +60,7 @@ footer {
     justify-content: center;
     align-items: center;
     color: white;
+    font-family: 'Times New Roman', Times, serif;
 
 }
 
@@ -117,8 +118,9 @@ footer {
     border-radius: 5px;
     /* background-color: rgba(0, 0, 0, 0.5); */
 
-    height: 50%;
+    height: 100%;
     font-size: calc(0.5 * 50px);
+    /* font-family: 'Times New Roman', Times, serif; */
     padding: 5px 10px;
 
     display: flex;
