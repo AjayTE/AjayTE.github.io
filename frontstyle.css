@@ -115,10 +115,10 @@ footer {
     text-align: center;
     text-decoration: none;
     border-radius: 5px;
-    background-color: rgba(0, 0, 0, 0.5);
+    /* background-color: rgba(0, 0, 0, 0.5); */
 
     height: 50%;
-    font-size: calc(0.5 * 87.5px);
+    font-size: calc(0.5 * 50px);
     padding: 5px 10px;
 
     display: flex;
