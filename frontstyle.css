@@ -42,7 +42,7 @@ footer {
 /* Styling for the dropdown menu */
 .dropdown-menu {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     height: 50px;
 
@@ -60,6 +60,9 @@ footer {
 }
 
 .dropdown-menu ul {
+    justify-content: space-evenly;
+    width: 100%;
+
     margin: 0;
     padding: 0;
     display: flex;
