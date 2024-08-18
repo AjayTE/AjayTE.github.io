@@ -40,6 +40,12 @@ footer {
 
 /* Styling for the dropdown menu */
 .dropdown-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+
+
     list-style-type: none;  /*No bullet points*/
     margin: 0;
     padding: 0;
@@ -51,6 +57,13 @@ footer {
     width: 100%;
 
 }
+
+.dropdown-menu ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
 
 /* Link reeks geheel display */
 .dropdown-menu li {
@@ -69,6 +82,11 @@ footer {
     background-color: black;
 
     padding: 10px 15px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 /* Kleur wanneer je over topic navigatiebalk scrollt */
