@@ -66,8 +66,27 @@ footer {
 
 }
 
+/* Cursor effect after each element of .myself */
+.blinking-cursor::after {
+    content: '';
+    display: inline-block;
+    width: 1px;
+    height: 1em;
+    background-color: white;
+    margin-left: 5px;
+    animation: blink 0.8s infinite;
+}
 
 
+
+
+
+/* Create animation by gradually changing from on set of CSS style to another*/
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
 
 
 /* Styling for the dropdown menu */
