@@ -1,0 +1,104 @@
+body {
+    min-height: 100vh;
+    margin: 0;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+header {
+    min-height: 50px;
+    z-index: 5;
+}
+
+
+footer {
+    min-height: 50px;
+}
+
+/* Styling for the dropdown menu */
+.dropdown-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 87.5px;
+
+
+    list-style-type: none;  /*No bullet points*/
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.5); /* Transparent background color */
+
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+    z-index: 10;
+
+}
+
+.dropdown-menu ul {
+    justify-content: space-evenly;
+    width: 100%;
+
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+
+/* Link reeks geheel display */
+.dropdown-menu li {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+
+    
+}
+
+/*Individual blocks with content links*/
+.dropdown-menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+
+    height: 50%;
+    font-size: calc(0.5 * 50px);
+    padding: 5px 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* Kleur wanneer je over topic navigatiebalk scrollt */
+.dropdown-menu li a:hover:not(.active) {
+    background-color: cadetblue;    /* moet niet color ipv background color?*/
+}
+
+/* Kleur welke pagina huidig zittend */
+.dropdown-menu li a.active {
+    background-color: cadetblue;
+}
+
+.bottom {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    /* background-color: black; */
+    background-color: papayawhip;
+    color: black;
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 62.5px;
+    z-index: 1;
+}

@@ -6,11 +6,13 @@
         <meta name="description" content="website page about myself">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <link rel="stylesheet" type="text/css" href="frontstyle.css">
+        <link rel="stylesheet" type="text/css" href="myself.css">
         <title> About myself</title>
         <link rel="icon" type="image/x-icon" href="/images/iconphoto.ico">
     </head>
 
+    <body>
+        <div id="header"></div>
 
 
 
@@ -20,6 +22,15 @@
 
 
 
+
+
+
+        <div id="footer"></div>
+        <script>
+            document.getElementById("header").innerHTML = '<object type="text/html" data="header.html"></object>';
+            document.getElementById("footer").innerHTML = '<object type="text/html" data="footer.html"></object>';
+        </script>
+    </body>
 </html>
 
 
