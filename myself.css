@@ -3,16 +3,21 @@ body {
     margin: 0;
     display: grid;
     grid-template-rows: auto 1fr auto;
+    background-image: url('/images/capetown.jpg');
 }
 
 header {
     min-height: 50px;
     z-index: 5;
+    background-color: green;
+    color: wheat;
 }
 
 
 footer {
     min-height: 50px;
+    background-color: green;
+    color: wheat;
 }
 
 .content {
@@ -25,14 +30,17 @@ footer {
     display: flex;
     flex-direction: column;
     flex: 1;
+    background-color:rgba(0, 0, 0, 0.5); /* Transparent background color */
     /* width: 100vw; */
     padding: 0 20px;
 }
 
 
 img {
-    max-height: 100%;
-    max-width: 100%;
+    /* max-height: 100%;
+    max-width: 100%; */
+    max-width: 300px;
+    max-height: 300px;
     height: auto;
     object-fit: contain;
 }
