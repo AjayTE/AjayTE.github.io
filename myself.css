@@ -4,20 +4,25 @@ body {
     display: grid;
     grid-template-rows: auto 1fr auto;
     background-image: url('/images/capetown.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 header {
-    min-height: 50px;
-    z-index: 5;
+    height: 87.5px;
+    z-index: 20;
     background-color: green;
     color: wheat;
+    text-align: center;
 }
 
 
 footer {
-    min-height: 50px;
+    height: 62.5px;
     background-color: green;
+    z-index: 20;
     color: wheat;
+    text-align: center;
 }
 
 .content {
