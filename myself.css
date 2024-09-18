@@ -10,7 +10,7 @@ body {
 
 header {
     height: 87.5px;
-    z-index: 20;
+    /* z-index: 20; */
     background-color: green;
     color: wheat;
     text-align: center;
@@ -20,7 +20,7 @@ header {
 footer {
     height: 62.5px;
     background-color: green;
-    z-index: 20;
+    /* z-index: 20; */
     color: wheat;
     text-align: center;
 }
@@ -37,7 +37,7 @@ footer {
     flex: 1;
     background-color:rgba(0, 0, 0, 0.5); /* Transparent background color */
     /* width: 100vw; */
-    padding: 0 20px;
+    padding: 0 30px;
 }
 
 
@@ -48,6 +48,7 @@ img {
     max-height: 300px;
     height: auto;
     object-fit: contain;
+    margin-right: 20px;
 }
 
 .row1 {
@@ -56,16 +57,28 @@ img {
     align-items: center;
     flex-grow: 1;
     justify-content: space-around;
+    gap: 30px;
+    padding: 20px 0;
+    /* align-items: flex-start; */
     /* width: 100vw; */
 
 }
 
 .row1 div:first-child {
-    flex-grow: 1;
-    max-width: 300px;
-    max-height: 300px;
+    flex-basis: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-grow: 1; */
+    /* max-width: 300px;
+    max-height: 300px; */
 
     
+}
+
+.row1 div:last-child {
+    flex-basis: 60%;
+    padding: 10px;
 }
 
 .row2 {
@@ -74,6 +87,7 @@ img {
     align-items: center;
     flex-grow: 1;
     justify-content: space-around;
+    padding: 20px 0;
     /* width: 100vw; */
 }
 
