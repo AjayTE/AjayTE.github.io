@@ -1,11 +1,13 @@
 /* Grid for layout body*/
 
 body {
-    background-image: url('images/guatemala1.jpg');
+    /* background-image: url('images/guatemala1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    background-position: center;
+    background-position: center; */
+
+    background-color: rgb(0, 45, 66);
 
     min-height: 100vh;
     margin: 0;
