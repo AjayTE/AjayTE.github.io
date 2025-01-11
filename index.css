@@ -1,0 +1,312 @@
+body {
+    min-height: 100vh;
+    margin: 0;
+    display: grid;
+    grid-template-rows: auto 100vh 100vh auto;
+    font-family: 'Inter', sans-serif;
+    /* background-color: #f4e1c1; */
+
+}
+  
+
+/* Menu bovenaan styling */
+header {
+    padding: 20px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.image-menu {
+    max-height: 50px;
+    width: auto;
+    filter: grayscale(70%) brightness(70%) contrast(100%);
+    transition: filter 0.3s ease;
+
+    margin-left: 30px;
+}
+
+.image-menu:hover {
+    filter: grayscale(0%) brightness(100%) contrast(100%);
+}
+
+.menu-rechts {
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 40px;
+}
+
+.rechter-ul {
+    display: flex;
+    flex-direction: row;
+
+    margin: 0;
+    padding: 0;
+
+
+    list-style: none;
+    gap: 35px;
+}
+
+
+.rechter-ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+
+    padding: 5px 10px;
+    color: #333333;
+    transition: color 0.3s ease;
+}
+
+.rechter-ul li a:hover {
+    color: #7E57C2;
+}
+  
+
+/* Body contents */
+
+.intro-content, .hobby-content {
+    height: 100%;
+}
+
+/* Linkerkant bovenste pagina */
+.intro-content {
+    /* background-color: #f4f4f4; */
+    color: #333;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.introductiefoto {
+    max-width: 50%;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+
+.image-01 {
+    border-radius: 12px;
+    max-height: 450px;
+    max-width: 100%;
+    margin-bottom: 100px;
+    margin-right: 100px;
+}
+  
+/* Rechterkant bovenste pagina */
+.introductietekst {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 100px;
+
+    max-width: 500px;
+
+    line-height: 1.4;
+    /* margin-left: 20px; */
+}
+
+.naam {
+    background: linear-gradient(90deg,#7E57C2, #7F94CB);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.introductietekst h2 {
+    margin-bottom: 2px;
+}
+
+.introductietekst p {
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+
+
+/* ONDERSTE helft styling */
+.hobby-content {
+    color: #333;
+    display: flex;
+    flex-direction: row;
+}
+
+.hobby-teksten {
+    max-width: 50%;
+    flex-grow: 1;
+
+    display: flex;
+    flex-direction: column;
+
+    /* align-items: center; */
+    /* justify-content: flex-end; */
+    /* margin-left: 300px; */
+
+}
+
+
+.hobby-introductie h2, .hobby-lijst h3, .hobby-talen h3, .spotify-liedje h3 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.hobby-introductie p, .hobby-lijst p, .hobby-talen ul li {
+    font-size: 14px;
+}
+
+.hobby-introductie {
+    max-width: 500px;
+    margin-bottom: 20px;
+    margin-left: 300px;
+}
+
+.hobby-lijst {
+    margin-bottom: 20px;
+    margin-left: 300px;
+
+}
+
+.hobby-talen {
+    margin-bottom: 20px;
+    margin-left: 300px;
+}
+
+.hobby-talen ul {
+    list-style-position: inside;
+    padding-left: 0;
+    margin-top: 0;
+}
+
+
+.hobby-lijst p {
+    line-height: 0.5;
+}
+
+
+.spotify-foto {
+    max-width: 200px;
+    height: auto;
+    border-radius: 10px;
+}
+
+
+.spotify-liedje {
+    margin-left: 300px;
+}
+
+
+
+.hobby-fotos {
+    display: flex;
+    flex-direction: column;
+}
+
+.vakantie-foto-hond {
+    max-width: 220px;
+    max-height: 320px;
+
+    border-radius: 12px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+
+    margin-left: 250px;
+    margin-bottom: 20px;
+}
+
+.vakantie-foto-strand {
+    max-width: 350px;
+    max-height: 210px;
+
+    border-radius: 12px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+
+    margin-top: 20px;
+    margin-left: 60px;
+    /* margin-right: 20px; */
+}
+
+
+/* Footer styling */
+
+footer {
+    background-color: rgba(0, 0, 0, 0.1);
+    color: #333;
+    padding: 10px;
+
+    display: flex;
+    /* text-align: center;
+    justify-content: center;
+    align-items: center; */
+    flex-direction: column;
+
+    height: 150px;
+}
+
+.footer-top {
+    display: flex;
+    flex-grow: 1;
+    max-height: 50%;
+
+    flex-direction: row;
+}
+
+.footer-foto-links {
+    display: flex;
+    flex-grow: 1;
+
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.footlinks {
+    max-width: 40px;
+    max-height: auto;
+    margin-left: 10%;
+}
+
+.footer-foto-rechts {
+    display: flex;
+    flex-grow: 1;
+
+    justify-content: flex-end;
+    align-items: center;
+
+    margin-right: 5%;
+}
+
+.classtwo {
+    max-width: 40px;
+    max-height: auto;
+
+    display: flex;
+}
+
+
+.classone {
+    margin-right: 50px;
+
+    display: flex;
+    max-width: 60px;
+    max-height: auto;
+}
+
+
+.footer-bottom hr {
+    width: 90%;
+    border: 1px solid #333;
+    margin: 5px auto 10px auto;
+}
+
+.footer-bottom p {
+    margin-left: 5%;
+    margin-top: 15px;
+}
+
