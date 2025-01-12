@@ -263,22 +263,29 @@ footer {
     margin-bottom: 20px;
     font-size: 2rem;
     font-weight: bold;
+    margin-top: 40px;
 }
 
 .website-container, .tracker-container {
-    background-color: #333;
+    background-color: rgba(0, 0, 0, 0.02);
     border-radius: 12px;
-    padding: 20px;
+    padding: 0px;
+    padding-top: 20px;
     max-width: 45%;
+    max-height: auto;
     text-align: center;
     transition: transform 0.3s ease;
-    margin-bottom: 20px; 
+    margin-bottom: 90px; 
+    margin-top: 10px;
 }
 
 .website-foto, .tracker-foto {
-    max-width: 100%;
-    border-radius: 8px;
-    margin-bottom: 15px;
+    max-width: 80%;
+    max-height: 80%;
+    border-radius: 30px;
+    /* margin-bottom: 15px; */
+    padding: 25px;
+    /* margin: 15px; */
     transition: transform 0.3s ease;
 }
 
@@ -288,6 +295,30 @@ footer {
 
 
 
+.website-container a, .tracker-container a {
+    text-decoration: none;
+}
+
+
+.eupheme {
+    background: linear-gradient(90deg, #00008B, #1E90FF, #FFD700);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    transition: transform 0.3s ease;
+}
+
+.running-tracker {
+    background: linear-gradient(90deg, #006400, #90EE90);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    transition: transform 0.3s ease;
+}
+
+.running-tracker:hover, .eupheme:hover {
+    transform: scale(1.035);
+}
 
 /* .website-container {
     background-color: lightblue;
