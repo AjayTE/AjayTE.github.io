@@ -1,0 +1,430 @@
+body {
+    min-height: 100vh;
+    margin: 0;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    font-family: 'Inter', sans-serif;
+    /* background-color: #f4e1c1; */
+
+}
+  
+
+/* Menu bovenaan styling */
+header {
+    padding: 20px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.image-menu {
+    max-height: 50px;
+    width: auto;
+    filter: grayscale(70%) brightness(70%) contrast(100%);
+    transition: filter 0.3s ease;
+
+    margin-left: 30px;
+}
+
+.image-menu:hover {
+    filter: grayscale(0%) brightness(100%) contrast(100%);
+}
+
+.menu-rechts {
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 40px;
+}
+
+.rechter-ul {
+    display: flex;
+    flex-direction: row;
+
+    margin: 0;
+    padding: 0;
+
+
+    list-style: none;
+    gap: 35px;
+}
+
+
+.rechter-ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+
+    padding: 5px 10px;
+    color: #333333;
+    transition: color 0.3s ease;
+}
+
+.rechter-ul li a:hover {
+    color: #7E57C2;
+}
+
+
+/* Footer styling */
+
+footer {
+    background-color: rgba(0, 0, 0, 0.1);
+    color: #333;
+    padding: 10px;
+
+    display: flex;
+    /* text-align: center;
+    justify-content: center;
+    align-items: center; */
+    flex-direction: column;
+
+    height: 150px;
+}
+
+.footer-top {
+    display: flex;
+    flex-grow: 1;
+    max-height: 50%;
+
+    flex-direction: row;
+}
+
+.footer-foto-links {
+    display: flex;
+    flex-grow: 1;
+
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.footlinks {
+    max-width: 40px;
+    max-height: auto;
+    margin-left: 10%;
+}
+
+.footer-foto-rechts {
+    display: flex;
+    flex-grow: 1;
+
+    justify-content: flex-end;
+    align-items: center;
+
+    margin-right: 5%;
+}
+
+.classtwo {
+    max-width: 40px;
+    max-height: auto;
+
+    display: flex;
+}
+
+
+.classone {
+    margin-right: 50px;
+
+    display: flex;
+    max-width: 60px;
+    max-height: auto;
+}
+
+
+.footer-bottom hr {
+    width: 90%;
+    border: 1px solid #333;
+    margin: 5px auto 10px auto;
+}
+
+.footer-bottom p {
+    margin-left: 5%;
+    margin-top: 15px;
+}
+
+
+
+
+
+
+/*----------------------------------------------------------- */
+/* Middenstuk stylen */
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+
+.hoofdtitel {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 2rem;
+
+    background: linear-gradient(90deg, #FF0000, #FF66B2, #FFD1DC);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+
+.inlogscherm-gedeelte {
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+    padding: 20px;
+
+    justify-content: space-between;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+    /* width: 100%; */
+    /* height: 40%; */
+}
+
+
+.inlog-tekst {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 2;
+
+    max-width: 45%;
+
+    /* align-items: center; */
+    justify-content: flex-start;
+    margin: 0 20px;
+
+    padding-left: 20px;
+    font-size: 16px;
+
+    line-height: 1.5;
+}
+
+
+.inlog-foto {
+    display: flex;
+    flex-grow: 1;
+
+    justify-content: center;
+    align-items: center;
+
+    margin: 20px;
+
+}
+
+.inlog-img {
+    max-width: 100%;
+    max-height: 180px;
+
+    border-radius: 20px;
+
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.inlog-img:hover {
+    transform: scale(1.05);
+}
+
+
+
+
+/* ------------------------------ kalender gedeelte ---------------------------- */
+
+.kalender-gedeelte {
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+    padding: 20px;
+
+    justify-content: space-between;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.kalender-foto {
+    display: flex;
+    flex-grow: 1;
+
+    justify-content: center;
+    align-items: center;
+
+    margin: 20px 0;
+    padding-right: 140px;
+}
+
+
+.kalender-img {
+    max-width: 100%;
+    max-height: 180px;
+
+    border-radius: 20px;
+
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+
+.kalender-img:hover {
+    transform: scale(1.05);
+}
+
+
+.kalender-tekst {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 2;
+
+    max-width: 45%;
+
+    /* align-items: center; */
+    justify-content: flex-start;
+    margin: 0 20px;
+    padding-right: 50px;
+    margin-right: 150px;
+
+    padding-left: 30px;
+    font-size: 16px;
+
+    line-height: 1.5;
+}
+
+
+
+
+/*----------------- account gedeelte ----------------- */
+
+.account-gedeelte {
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+    padding: 20px;
+
+    justify-content: space-between;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+    /* width: 100%; */
+    /* height: 40%; */
+}
+
+
+.account-tekst {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 2;
+
+    max-width: 45%;
+
+    /* align-items: center; */
+    justify-content: flex-start;
+    margin: 0 20px;
+
+    padding-left: 20px;
+    font-size: 16px;
+
+    line-height: 1.5;
+}
+
+
+.account-foto {
+    display: flex;
+    flex-grow: 1;
+
+    justify-content: center;
+    align-items: center;
+
+    margin: 20px;
+
+}
+
+.account-img {
+    max-width: 100%;
+    max-height: 180px;
+
+    border-radius: 20px;
+
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.account-img:hover {
+    transform: scale(1.05);
+}
+
+
+
+
+
+/* ------------------ledensysteem gedeelte ----------- */
+
+
+.ledensysteem-gedeelte {
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+    padding: 20px;
+
+    justify-content: space-between;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.leden-foto {
+    display: flex;
+    flex-grow: 1;
+
+    justify-content: center;
+    align-items: center;
+
+    margin: 20px 0;
+    padding-right: 140px;
+}
+
+
+.leden-img {
+    max-width: 100%;
+    max-height: 180px;
+
+    border-radius: 20px;
+
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+
+.leden-img:hover {
+    transform: scale(1.05);
+}
+
+
+.leden-tekst {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 2;
+
+    max-width: 45%;
+
+    /* align-items: center; */
+    justify-content: flex-start;
+    margin: 0 20px;
+    padding-right: 50px;
+    margin-right: 150px;
+
+    padding-left: 30px;
+    font-size: 16px;
+
+    line-height: 1.5;
+}
