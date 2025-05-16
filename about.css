@@ -292,6 +292,7 @@ footer {
 .shipyard-foto {
     overflow: hidden;
     object-fit: cover;
+    max-height: 279px;
 
 }
 
