@@ -289,12 +289,12 @@ footer {
     transition: transform 0.3s ease;
 }
 
-.shipyard-foto {
+/* .shipyard-foto {
     overflow: hidden;
-    /* object-fit: cover;
-    max-height: 279px; */
+    object-fit: cover;
+    max-height: 279px;
+} */
 
-}
 
 .website-foto:hover, .tracker-foto:hover, .invoice-foto:hover, .shipyard-foto:hover {
     transform: scale(1.05);
