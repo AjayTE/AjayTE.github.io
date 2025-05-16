@@ -289,6 +289,10 @@ footer {
     transition: transform 0.3s ease;
 }
 
+.shipyard-foto {
+    overflow: hidden;
+}
+
 .website-foto:hover, .tracker-foto:hover, .invoice-foto:hover, .shipyard-foto:hover {
     transform: scale(1.05);
 }
