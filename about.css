@@ -266,7 +266,7 @@ footer {
     margin-top: 40px;
 }
 
-.website-container, .tracker-container, .invoice-container, .shipyard-container {
+.website-container, .tracker-container, .invoice-container, .shipyard-container, .task-container {
     background-color: rgba(0, 0, 0, 0.02);
     border-radius: 12px;
     padding: 0px;
@@ -279,7 +279,7 @@ footer {
     margin-top: 10px;
 }
 
-.website-foto, .tracker-foto, .invoice-foto, .shipyard-foto {
+.website-foto, .tracker-foto, .invoice-foto, .shipyard-foto, .task-foto {
     max-width: 80%;
     max-height: 80%;
     border-radius: 30px;
@@ -296,13 +296,13 @@ footer {
 } */
 
 
-.website-foto:hover, .tracker-foto:hover, .invoice-foto:hover, .shipyard-foto:hover {
+.website-foto:hover, .tracker-foto:hover, .invoice-foto:hover, .shipyard-foto:hover, .task-foto:hover {
     transform: scale(1.05);
 }
 
 
 
-.website-container a, .tracker-container a, .invoice-container a, .shipyard-container a {
+.website-container a, .tracker-container a, .invoice-container a, .shipyard-container a, .task-container a {
     text-decoration: none;
 }
 
@@ -317,6 +317,14 @@ footer {
 
 .running-tracker {
     background: linear-gradient(90deg, #006400, #90EE90);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    transition: transform 0.3s ease;
+}
+
+.task-tracker {
+    background: linear-gradient(90deg, #2E8B57, #A0EFD1);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
@@ -340,7 +348,7 @@ footer {
     transition: transform 0.3s ease;
 }
 
-.running-tracker:hover, .eupheme:hover, .invoice-generator:hover, .shipyard-tracker:hover {
+.running-tracker:hover, .eupheme:hover, .invoice-generator:hover, .shipyard-tracker:hover, .task-tracker:hover {
     transform: scale(1.035);
 }
 
