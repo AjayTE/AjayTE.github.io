@@ -379,3 +379,100 @@ footer {
     transform: scale(1.05);
 } */
 
+/* Media responsivity */
+@media (max-width: 768px) {
+  header {
+    padding: 10px 15px;
+    height: auto;
+  }
+
+  .image-menu {
+    max-height: 40px;
+    margin-left: 10px;
+  }
+
+  .menu-rechts {
+    margin-right: 10px;
+  }
+
+  .rechter-ul {
+    gap: 15px;
+  }
+
+  .rechter-ul li a {
+    font-size: 12px;
+    padding: 5px 8px;
+  }
+
+  .main-content-intro {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 10px;
+  }
+
+  .intro-foto, .intro-text {
+    max-width: 100%;
+    margin-left: 0;
+    margin-bottom: 20px;
+  }
+
+  .fotootje {
+    max-height: 250px;
+    width: auto;
+    margin-bottom: 0;
+  }
+
+  .intro-text h2 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .intro-text p {
+    text-align: center;
+    margin: 10px 0;
+  }
+
+  .arrow-container {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    margin: 20px auto;
+  }
+
+  #main-content-projecten {
+    flex-direction: column;
+    margin: 20px 15px;
+  }
+
+  .website-container, .tracker-container, .invoice-container, .shipyard-container, .task-container {
+    max-width: 100%;
+    margin-bottom: 40px;
+  }
+
+  footer {
+    height: auto;
+    padding: 15px 10px;
+  }
+
+  .footer-top {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .footer-foto-links, .footer-foto-rechts {
+    justify-content: center;
+    margin: 0;
+  }
+
+  .footlinks, .classone, .classtwo {
+    max-width: 30px;
+    margin: 0 5px;
+  }
+
+  .footer-bottom p {
+    margin-left: 0;
+    text-align: center;
+    font-size: 14px;
+  }
+}
