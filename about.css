@@ -291,6 +291,8 @@ footer {
 
 .shipyard-foto {
     overflow: hidden;
+    object-fit: cover;
+
 }
 
 .website-foto:hover, .tracker-foto:hover, .invoice-foto:hover, .shipyard-foto:hover {
