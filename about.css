@@ -260,7 +260,7 @@ footer {
 .projects-title {
     width: 100%;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     font-size: 2rem;
     font-weight: bold;
     margin-top: 40px;
@@ -274,9 +274,18 @@ footer {
     max-width: 45%;
     max-height: auto;
     text-align: center;
-    transition: transform 0.3s ease;
     margin-bottom: 90px; 
     margin-top: 10px;
+
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.08);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+
+.website-container:hover, .tracker-container:hover, .invoice-container:hover, .shipyard-container:hover, 
+.task-container:hover {
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.15);
+    transform: scale(1.02);
 }
 
 .website-foto, .tracker-foto, .invoice-foto, .shipyard-foto, .task-foto {
