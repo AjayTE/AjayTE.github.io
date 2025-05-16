@@ -169,7 +169,7 @@ footer {
     font-weight: bold;
     font-size: 2rem;
 
-    background: linear-gradient(90deg, #00008B, #1E90FF, #FFD700);
+    background: linear-gradient(90deg, #8B4000, #FF8C00, #FFA500, #FFE5B4);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
@@ -427,4 +427,66 @@ footer {
     font-size: 16px;
 
     line-height: 1.5;
+}
+
+
+
+/* ------------ extra gedeelte ---------------- */
+.laatste-gedeelte {
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+    padding: 20px;
+
+    justify-content: space-between;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+    /* width: 100%; */
+    /* height: 40%; */
+}
+
+
+.laatste-tekst {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 2;
+
+    max-width: 45%;
+
+    /* align-items: center; */
+    justify-content: flex-start;
+    margin: 0 20px;
+
+    padding-left: 20px;
+    font-size: 16px;
+
+    line-height: 1.5;
+}
+
+
+.laatste-foto {
+    display: flex;
+    flex-grow: 1;
+
+    justify-content: center;
+    align-items: center;
+
+    margin: 20px;
+
+}
+
+.laatste-img {
+    max-width: 100%;
+    max-height: 180px;
+
+    border-radius: 20px;
+
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.laatste-img:hover {
+    transform: scale(1.05);
 }
