@@ -293,7 +293,7 @@ footer {
     max-height: 80%;
     border-radius: 30px;
     /* margin-bottom: 15px; */
-    padding: 25px 25px 0px 25px;
+    padding: 25px 25px 15px 25px;
     /* margin: 15px; */
     transition: transform 0.3s ease;
 }
@@ -361,6 +361,9 @@ footer {
     transform: scale(1.035);
 }
 
+.running-tracker, .eupheme, .invoice-generator, .shipyard-tracker, .task-tracker {
+    padding-bottom: 10px;
+}
 /* .website-container {
     background-color: lightblue;
     color: gold;
