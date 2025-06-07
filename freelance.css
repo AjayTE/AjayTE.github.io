@@ -246,69 +246,6 @@ footer {
     transform: rotate(315deg) translateY(8px); 
 }
 
-/* Freelance add-on styling stukje */
-.freelance-content {
-  display: flex;
-  flex-direction: row;
-  color: #333;
-  padding: 40px 80px;
-  align-items: center;
-  gap: 50px;
-}
-
-.freelance-photo {
-  flex: 1;
-  display: flex;
-  justify-content: center;
-}
-
-.freelance-image {
-  max-width: 100%;
-  max-height: 300px;
-  border-radius: 12px;
-  box-shadow: 8px 8px 15px rgba(0,0,0,0.2);
-  object-fit: cover;
-}
-
-.freelance-text {
-  flex: 1;
-  max-width: 500px;
-  font-size: 16px;
-  line-height: 1.5;
-}
-
-.freelance-text h2 {
-  margin-bottom: 12px;
-  font-weight: 700;
-}
-
-.naam {
-  background: linear-gradient(90deg, #7E57C2, #7F94CB);
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
-}
-
-@media (max-width: 900px) {
-  .freelance-content {
-    flex-direction: column;
-    padding: 20px;
-  }
-
-  .freelance-text {
-    max-width: 100%;
-    text-align: center;
-  }
-
-  .freelance-photo {
-    margin-bottom: 20px;
-  }
-
-  .freelance-image {
-    max-height: 250px;
-  }
-}
-
 
 
 /* Main content pagina 2 */
