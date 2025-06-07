@@ -1,0 +1,465 @@
+body {
+    min-height: 100vh;
+    margin: 0;
+    display: grid;
+    grid-template-rows: auto minmax(100vh, auto) auto auto;
+    font-family: 'Inter', sans-serif;
+    /* background-color: #f4e1c1; */
+
+}
+  
+
+/* Menu bovenaan styling */
+header {
+    padding: 20px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.image-menu {
+    max-height: 50px;
+    width: auto;
+    filter: grayscale(70%) brightness(70%) contrast(100%);
+    transition: filter 0.3s ease;
+
+    margin-left: 30px;
+}
+
+.image-menu:hover {
+    filter: grayscale(0%) brightness(100%) contrast(100%);
+}
+
+.menu-rechts {
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 40px;
+}
+
+.rechter-ul {
+    display: flex;
+    flex-direction: row;
+
+    margin: 0;
+    padding: 0;
+
+
+    list-style: none;
+    gap: 35px;
+}
+
+
+.rechter-ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+
+    padding: 5px 10px;
+    color: #333333;
+    transition: color 0.3s ease;
+}
+
+.rechter-ul li a:hover {
+    color: #7E57C2;
+}
+
+
+/* Footer styling */
+
+footer {
+    background-color: rgba(0, 0, 0, 0.1);
+    color: #333;
+    padding: 10px;
+
+    display: flex;
+    /* text-align: center;
+    justify-content: center;
+    align-items: center; */
+    flex-direction: column;
+
+    height: 150px;
+}
+
+.footer-top {
+    display: flex;
+    flex-grow: 1;
+    max-height: 50%;
+
+    flex-direction: row;
+}
+
+.footer-foto-links {
+    display: flex;
+    flex-grow: 1;
+
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.footlinks {
+    max-width: 40px;
+    max-height: auto;
+    margin-left: 10%;
+}
+
+.footer-foto-rechts {
+    display: flex;
+    flex-grow: 1;
+
+    justify-content: flex-end;
+    align-items: center;
+
+    margin-right: 5%;
+}
+
+.classtwo {
+    max-width: 40px;
+    max-height: auto;
+
+    display: flex;
+}
+
+
+.classone {
+    margin-right: 50px;
+
+    display: flex;
+    max-width: 60px;
+    max-height: auto;
+}
+
+
+.footer-bottom hr {
+    width: 90%;
+    border: 1px solid #333;
+    margin: 5px auto 10px auto;
+}
+
+.footer-bottom p {
+    margin-left: 5%;
+    margin-top: 15px;
+}
+
+
+
+
+
+/* Main content styling*/
+
+/* Main content gedeelte 1 */
+.main-content-intro, .main-content-projecten {
+    height: 100%;
+}
+
+
+.main-content-intro {
+    color: #333;
+
+    display: flex;
+    flex-direction: row;
+}
+
+
+.intro-foto {
+    display: flex;
+    max-width: 50%;
+    flex-grow: 1;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.fotootje {
+    max-height: 400px;
+    max-width: auto;
+
+    border-radius: 12px;
+    margin-bottom: 175px;
+    margin-left: 230px;
+}
+
+
+.intro-text {
+    max-width: 50%;
+    flex-grow: 1;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    max-width: 500px;
+
+    margin-bottom: 175px;
+    margin-left: 0;
+}
+
+.intro-text h2 {
+    font-size: 25px;
+    line-height: 1; 
+    margin: 5px 0; 
+}
+
+.functie {
+    background: linear-gradient(90deg, #7E57C2, #7F94CB);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.intro-text p {
+    margin: 5px;
+}
+
+.spacebrah {
+    margin: 10px;
+}
+
+.arrow-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 40px; 
+    left: 50%;
+}
+
+.arrow-down {
+    width: 30px;
+    height: 30px;
+    border: 3px solid #333; 
+    border-top: none; 
+    border-right: none; 
+
+    transform: rotate(315deg);
+    background: none; 
+    transition: border-color 0.3s ease, transform 0.3s ease; 
+}
+
+.arrow-container:hover .arrow-down {
+    border-color: #7E57C2; 
+    transform: rotate(315deg) translateY(8px); 
+}
+
+
+
+
+/* Main content pagina 2 */
+#main-content-projecten {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 100px;
+    flex-wrap: wrap;
+}
+
+.projects-title {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+.website-container, .tracker-container, .invoice-container, .task-container {
+    background-color: rgba(0, 0, 0, 0.02);
+    border-radius: 12px;
+    padding: 0px;
+    padding-top: 20px;
+    max-width: 45%;
+    max-height: auto;
+    text-align: center;
+    margin-bottom: 90px; 
+    margin-top: 10px;
+
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.08);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+
+.website-container:hover, .tracker-container:hover, .invoice-container:hover, 
+.task-container:hover {
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.15);
+    transform: scale(1.02);
+}
+
+.website-foto, .tracker-foto, .invoice-foto, .task-foto {
+    max-width: 80%;
+    max-height: 80%;
+    border-radius: 30px;
+    /* margin-bottom: 15px; */
+    padding: 25px 25px 20px 25px;
+    /* margin: 15px; */
+    transition: transform 0.3s ease;
+}
+
+
+
+.website-foto:hover, .tracker-foto:hover, .invoice-foto:hover, .task-foto:hover {
+    transform: scale(1.05);
+}
+
+
+
+.website-container a, .tracker-container a, .invoice-container a, .task-container a {
+    text-decoration: none;
+}
+
+
+.eupheme {
+    background: linear-gradient(90deg, #00008B, #1E90FF, #FFD700);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    transition: transform 0.3s ease;
+}
+
+.running-tracker {
+    background: linear-gradient(90deg, #006400, #90EE90);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    transition: transform 0.3s ease;
+}
+
+.task-tracker {
+    background: linear-gradient(90deg, #2E8B57, #A0EFD1);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    transition: transform 0.3s ease;
+}
+
+
+.invoice-generator {
+    background: linear-gradient(90deg, #FF0000, #FF66B2, #FFD1DC);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    transition: transform 0.3s ease;
+}
+
+.running-tracker:hover, .eupheme:hover, .invoice-generator:hover, .task-tracker:hover {
+    transform: scale(1.035);
+}
+
+.running-tracker, .eupheme, .invoice-generator, .task-tracker {
+    padding-bottom: 10px;
+}
+/* .website-container {
+    background-color: lightblue;
+    color: gold;
+} */
+
+/* .tracker-container {
+    background-color: green;
+    color: white;
+} */
+
+
+/* .website-container:hover, .tracker-container:hover {
+    transform: scale(1.05);
+} */
+
+/* Media responsivity */
+@media (max-width: 768px) {
+  header {
+    padding: 10px 15px;
+    height: auto;
+  }
+
+  .image-menu {
+    max-height: 40px;
+    margin-left: 10px;
+  }
+
+  .menu-rechts {
+    margin-right: 10px;
+  }
+
+  .rechter-ul {
+    gap: 15px;
+  }
+
+  .rechter-ul li a {
+    font-size: 12px;
+    padding: 5px 8px;
+  }
+
+  .main-content-intro {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 10px;
+  }
+
+  .intro-foto, .intro-text {
+    max-width: 100%;
+    margin-left: 0;
+    margin-bottom: 20px;
+  }
+
+  .fotootje {
+    max-height: 250px;
+    width: auto;
+    margin-bottom: 0;
+  }
+
+  .intro-text h2 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .intro-text p {
+    text-align: center;
+    margin: 10px 0;
+  }
+
+  .arrow-container {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    margin: 20px auto;
+  }
+
+  #main-content-projecten {
+    flex-direction: column;
+    margin: 20px 15px;
+  }
+
+  .website-container, .tracker-container, .invoice-container, .task-container {
+    max-width: 100%;
+    margin-bottom: 40px;
+  }
+
+  footer {
+    height: auto;
+    padding: 15px 10px;
+  }
+
+  .footer-top {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .footer-foto-links, .footer-foto-rechts {
+    justify-content: center;
+    margin: 0;
+  }
+
+  .footlinks, .classone, .classtwo {
+    max-width: 30px;
+    margin: 0 5px;
+  }
+
+  .footer-bottom p {
+    margin-left: 0;
+    text-align: center;
+    font-size: 14px;
+  }
+}
